@@ -25,6 +25,12 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
+  if (msg.content === prefix + ' 更新日誌') {
+    msg.reply('24小時伺服測試中');
+  }
+});
+
+client.on('message', msg => {
   if (msg.content === prefix + console.err) {
       msg.reply('走開!');
   }
