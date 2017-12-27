@@ -1,16 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const economy = require('discord-eco');
 const prefix = "AR15";
 
 client.on('ready', () => {
     console.log('I am ready!');
-});
-
-  console.log('Bot started.');
-  client.on('ready', msg => {
-  console.log('Bot operational.');
-  client.user.setGame('炸彈人');
 });
 
 client.on('message', msg => {
