@@ -9,3 +9,5 @@ client.on('message', msg => {
     msg.reply('\n 姓名:**888**\n 等級:**2星**\n 槍種:**000g  ');
   }
 });
+
+client.login(process.env.BOT_TOKEN);
