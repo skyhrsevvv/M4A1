@@ -993,6 +993,29 @@ client.on('message', msg => {
   }
 })
 
+client.on('message', msg => {
+  if (msg.content === prefix +' e56') {
+    msg.reply('\n 姓名:**熱光學迷彩披風**\n 種類:**人形裝備|偽裝披風**\n 等級:**5星**\n 適用槍種:**RF**\n http://en.gfwiki.com/images/a/ab/Thermoptic_Camo_Cape.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e46') {
+    msg.reply('\n 姓名:**城市迷彩披風**\n 種類:**人形裝備|偽裝披風**\n 等級:**4星**\n 適用槍種:**RF**\n http://en.gfwiki.com/images/0/0e/Urban_Camo_Cape.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e31') {
+    msg.reply('\n 姓名:**偽裝披風**\n 種類:**人形裝備|偽裝披風**\n 等級:**3星**\n 適用槍種:**RF**\n https://media.discordapp.net/attachments/392334198825811968/398476656190160896/image.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e16') {
+    msg.reply('\n 姓名:**破舊披風**\n 種類:**人形裝備|偽裝披風**\n 等級:**2星**\n 適用槍種:**RF**\n 缺圖片  ');
+  }
+})
 
 client.login(process.env.BOT_TOKEN);
 
