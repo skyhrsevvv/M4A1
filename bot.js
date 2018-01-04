@@ -723,7 +723,161 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 102') {
+    msg.reply('\n 姓名:**競爭者**\n 等級:**5星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/2/2e/Contender.png/420px-Contender.png  ');
+  }
+});
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 105') {
+    msg.reply('\n 姓名:**NZ75**\n 等級:**5星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/0/0b/NZ75.png/420px-NZ75.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 100') {
+    msg.reply('\n 姓名:**維爾德MK2**\n 等級:**5星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/7/73/Welrod_MkII.png/420px-Welrod_MkII.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 105') {
+    msg.reply('\n 姓名:**M950A**\n 等級:**5星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/2/24/M950A.png/420px-M950A.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 110') {
+    msg.reply('\n 姓名:**灰熊MKV**\n 等級:**5星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/e/e0/Grizzly_MkV.png/420px-Grizzly_MkV.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 52') {
+    msg.reply('\n 姓名:**Spitfire**\n 等級:**4星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/b/b2/Spitfire.png/420px-Spitfire.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 55') {
+    msg.reply('\n 姓名:**P7**\n 等級:**4星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/6/64/P7.png/420px-P7.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 55') {
+    msg.reply('\n 姓名:**斯捷奇金**\n 等級:**4星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/f/fe/Stechkin.png/420px-Stechkin.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 50') {
+    msg.reply('\n 姓名:**MK23**\n 等級:**4星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/b/b1/Mk23.png/420px-Mk23.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 50') {
+    msg.reply('\n 姓名:**柯爾特左輪**\n 等級:**4星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/4/43/Colt_Revolver.png/420px-Colt_Revolver.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 45') {
+    msg.reply('\n 姓名:**托卡列夫**\n 等級:**3星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/e/ef/Tokarev.png/420px-Tokarev.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 40') {
+    msg.reply('\n 姓名:**馬卡洛夫**\n 等級:**3星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/4/4c/Makarov.png/420px-Makarov.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 40') {
+    msg.reply('\n 姓名:**M9**\n 等級:**3星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/5/58/M9.png/420px-M9.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 40') {
+    msg.reply('\n 姓名:**阿斯特拉**\n 等級:**3星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/7/73/Astra_Revolver.png/420px-Astra_Revolver.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 35') {
+    msg.reply('\n 姓名:**92式**\n 等級:**3星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/0/0f/Type_92.png/420px-Type_92.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 35') {
+    msg.reply('\n 姓名:**P99**\n 等級:**3星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/f/f9/P99.png/420px-P99.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 30') {
+    msg.reply('\n 姓名:**P08**\n 等級:**3星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/e/e0/P08.png/420px-P08.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 30') {
+    msg.reply('\n 姓名:**C96**\n 等級:**3星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/6/69/C96.png/420px-C96.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 28') {
+    msg.reply('\n 姓名:**Bren Ten**\n 等級:**2星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/4/42/Bren_Ten.png/420px-Bren_Ten.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 28') {
+    msg.reply('\n 姓名:**USP Compact**\n 等級:**2星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/9/97/USP_Compact.png/420px-USP_Compact.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 25') {
+    msg.reply('\n 姓名:**MP-446**\n 等級:**2星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/6/60/MP-446.png/420px-MP-446.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 25') {
+    msg.reply('\n 姓名:**FNP-9**\n 等級:**2星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/a/ad/FNP-9.png/420px-FNP-9.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 22') {
+    msg.reply('\n 姓名:**PPK**\n 等級:**2星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/9/94/PPK.png/420px-PPK.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 20') {
+    msg.reply('\n 姓名:**P38**\n 等級:**2星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/9/96/P38.png/420px-P38.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 20') {
+    msg.reply('\n 姓名:**納甘左輪**\n 等級:**2星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/1/1a/Nagant_Revolver.png/420px-Nagant_Revolver.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 20') {
+    msg.reply('\n 姓名:**M1911**\n 等級:**2星**\n 槍種:**HG**\n http://en.gfwiki.com/images/thumb/b/b2/M1911.png/420px-M1911.png  ');
+  }
+});
 
 
 client.login(process.env.BOT_TOKEN);
