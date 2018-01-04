@@ -891,5 +891,107 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === prefix +' e530') {
+    msg.reply('\n 姓名:**布雷妖精**\n 種類:**策略**\n https://img.moegirl.org/common/5/55/Landmines_3_-0877.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e510') {
+    msg.reply('\n 姓名:**照明妖精**\n 種類:**策略**\n https://img.moegirl.org/common/5/56/Illumine_3.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e505') {
+    msg.reply('\n 姓名:**搜救妖精**\n 種類:**策略**\n https://img.moegirl.org/common/2/24/Rescue_3_-0435.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e500') {
+    msg.reply('\n 姓名:**指揮妖精**\n 種類:**策略**\n https://img.moegirl.org/common/f/fd/Command_3_-0281.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e500') {
+    msg.reply('\n 姓名:**指揮妖精**\n 種類:**策略**\n https://img.moegirl.org/common/f/fd/Command_3_-0281.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e435') {
+    msg.reply('\n 姓名:**暴怒妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/9/95/Crit_3_-0937.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e430') {
+    msg.reply('\n 姓名:**勇士妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181104197994825.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e430') {
+    msg.reply('\n 姓名:**勇士妖精**\n 種類:**策略**\n http://pic.paopaoche.net/up/2017-8/201708181104197994825.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e410') {
+    msg.reply('\n 姓名:**防禦妖精**\n 種類:**策略**\n https://img.moegirl.org/common/d/d0/Defense_3.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e405') {
+    msg.reply('\n 姓名:**空降妖精**\n 種類:**策略**\n https://img.moegirl.org/common/e/e5/Airborne_3_-0472.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e400') {
+    msg.reply('\n 姓名:**增援妖精**\n 種類:**策略**\n https://img.moegirl.org/common/b/bd/Reinforce_3.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e340') {
+    msg.reply('\n 姓名:**空襲妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181108588295988.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e335') {
+    msg.reply('\n 姓名:**炮擊妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181106406672209.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e330') {
+    msg.reply('\n 姓名:**狙擊妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/d/d0/Sniper_3_-0809.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e310') {
+    msg.reply('\n 姓名:**嘲諷妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/f/f8/Target_3.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e305') {
+    msg.reply('\n 姓名:**護甲妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181205037371763.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e300') {
+    msg.reply('\n 姓名:**護甲妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/5/5f/Armor_3.png  ');
+  }
+})
+
 client.login(process.env.BOT_TOKEN);
 
