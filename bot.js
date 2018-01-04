@@ -983,15 +983,16 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' e305') {
-    msg.reply('\n 姓名:**護甲妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181205037371763.png  ');
+    msg.reply('\n 姓名:**護盾妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181205037371763.png  ');
   }
 })
 
 client.on('message', msg => {
   if (msg.content === prefix +' e300') {
-    msg.reply('\n 姓名:**護甲妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/5/5f/Armor_3.png  ');
+    msg.reply('\n 姓名:**盾甲妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/5/5f/Armor_3.png  ');
   }
 })
+
 
 client.login(process.env.BOT_TOKEN);
 
