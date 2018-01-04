@@ -879,6 +879,17 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === prefix +' e540') {
+    msg.reply('\n 姓名:**工事妖精**\n 種類:**策略**\n https://img.moegirl.org/common/0/0e/Fortress_3_-0469.png  ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' e535') {
+    msg.reply('\n 姓名:**火箭妖精**\n 種類:**策略**\n https://img.moegirl.org/common/7/77/Position_3.png  ');
+  }
+});
 
 client.login(process.env.BOT_TOKEN);
 
