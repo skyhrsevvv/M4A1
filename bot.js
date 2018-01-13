@@ -916,12 +916,6 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e500') {
-    msg.reply('\n 姓名:**指揮妖精**\n 種類:**策略**\n https://img.moegirl.org/common/f/fd/Command_3_-0281.png  ');
-  }
-});
-
-client.on('message', msg => {
   if (msg.content === prefix +' e435') {
     msg.reply('\n 姓名:**暴怒妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/9/95/Crit_3_-0937.png  ');
   }
