@@ -7,8 +7,13 @@ const prefix = "AR15";
   console.log('Bot started.');
   client.on('ready', msg => {
   console.log('Bot operational.');
- await client.user.setGame('炸彈人');
-});
+await client.user.setPresence({
+  data: {
+       game: {
+            name: '?help'
+        }
+    }
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' help') {
