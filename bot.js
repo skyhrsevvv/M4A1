@@ -7,13 +7,10 @@ const prefix = "AR15";
   console.log('Bot started.');
   client.on('ready', msg => {
   console.log('Bot operational.');
-await client.user.setPresence({
-  data: {
-       game: {
-            name: '?help'
-        }
-    }
-})
+  status: 'online',
+  game: { name: 'test', url: undefined },
+  afk: false,
+  since: 0 },
 
 client.on('message', msg => {
   if (msg.content === prefix +' help') {
