@@ -4,18 +4,13 @@ const prefix = "AR15";
 
 
 
-  console.log('Bot started.');
+ console.log('Bot started.');
   client.on('ready', msg => {
   console.log('Bot operational.');
-  status: 'online',
-  game: { name: 'test', url: undefined },
-  afk: false,
-  since: 0 },
+  client.user.setGame('炸彈人');
+});
 
-   client.on('message', msg => {         
-   if (command === "ping") {
-     message.channel.sendMessage("pong!").catch(console.error);
-  } else        
+     
             
 client.on('message', msg => {
   if (msg.content === prefix +' help') {
