@@ -1014,5 +1014,42 @@ client.on('message', msg => {
   }
 })
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 325') {
+    msg.reply('\n 姓名:**XM8**\n 等級:**4星**\n 槍種:**AR**\n https://img.moegirl.org/common/4/4e/Pic_XM8_D.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 228') {
+    msg.reply('\n 姓名:**C-MS**\n 等級:**5星**\n 槍種:**SMG**\n https://img.moegirl.org/common/9/94/Pic_CBJMS_D.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 353') {
+    msg.reply('\n 姓名:**MDR**\n 等級:**5星**\n 槍種:**AR**\n https://img.moegirl.org/common/5/5a/Pic_MDR_D.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 53') {
+    msg.reply('\n 姓名:**K5**\n 等級:**4星**\n 槍種:**HG**\n https://img.moegirl.org/common/2/20/Pic_K5_D.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 412') {
+    msg.reply('\n 姓名:**AK12**\n 等級:**5星**\n 槍種:**AR**\n https://img.moegirl.org/common/0/00/Pic_AK12.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 409') {
+    msg.reply('\n 姓名:**AN94**\n 等級:**5星**\n 槍種:**AR**\n https://img.moegirl.org/common/b/b0/Pic_AN94.png  ');
+  }
+})
+
+
 client.login(process.env.BOT_TOKEN);
 
