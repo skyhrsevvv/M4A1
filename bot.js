@@ -137,6 +137,7 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content === prefix +' 730') {
     msg.reply('\n 姓名:**RMB-93**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Bison倉鼠** \n\n **震盪打擊** :進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/5/57/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-RMB-93.png ');
+ 44141
   }
 });
 
