@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "AR15";
-const prefix = "ar15";
+const prefix = "AR15, ar15";
 
 
 
