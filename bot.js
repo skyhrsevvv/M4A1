@@ -100,13 +100,13 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 745') {
-    msg.reply('\n 姓名:**M37**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/f/f0/M37.png/420px-M37.png  ');
+    msg.reply('\n 姓名:**M37**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Rain Lan** \n\n **震盪打擊**: 進行一次額外的攻擊,攻擊造成1倍（2倍）傷害,  並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://img.moegirl.org/common/9/92/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-M37.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 740') {
-    msg.reply('\n 姓名:**M590**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/d/d4/M590.png/800px-M590.png  ');
+    msg.reply('\n 姓名:**M590**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**防彈乳牛** \n\n **防護專注**: 提升自身護甲40%（70%），持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n	 https://static.mengniang.org/common/6/65/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-M590.png  ');
   }
 });
 
