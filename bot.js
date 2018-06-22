@@ -1513,17 +1513,34 @@ client.on('message', msg => {
 })
           
 client.on('message', msg => {
-  if (msg.content === prefix +' 茅野愛衣') {
-    msg.reply('\n ** :musical_note: CV一覽:**\n ``` NTW-20 \n Kar98k \n StG44```  ');
+  if (msg.content === prefix +' 戶松遙') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 李-恩菲爾德 \n WA2000 \n M4A1```  ');
   }
 })
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 大久保瑠美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M99 \n 銜尾蛇（Ouroboros）```  ');
+  }
+})
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 佐藤聰美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` JS05 \n HK23```  ');
+  }
+})
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 上田麗奈') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 卡爾卡諾M1891 \n 卡爾卡諾M91/38```  ');
+  }
+})
 
-
-
-
+client.on('message', msg => {
+  if (msg.content === prefix +' 綾宮由希子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` L85A1```  ');
+  }
+})
 
 
 
