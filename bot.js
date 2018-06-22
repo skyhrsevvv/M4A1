@@ -1380,19 +1380,155 @@ client.on('message', msg => {
   }
 })
               
+client.on('message', msg => {
+  if (msg.content === prefix +' 小市真琴') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` F1 \n M1897 ```  ');
+  }
+})          
           
+client.on('message', msg => {
+  if (msg.content === prefix +' 花澤茜') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M12```  ');
+  }
+})            
           
+client.on('message', msg => {
+  if (msg.content === prefix +' 能登麻美子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` UMP9```  ');
+  }
+})          
           
+client.on('message', msg => {
+  if (msg.content === prefix +' 嶺內知美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` UMP45```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 伊藤加奈惠') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 希普卡 \n RFB```  ');
+  }
+}) 
           
+client.on('message', msg => {
+  if (msg.content === prefix +' 小堀幸') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` KLIN \n SPAS-12```  ');
+  }
+})          
           
+client.on('message', msg => {
+  if (msg.content === prefix +' 高田憂希') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` SR-3MP \n 破壞者（Destroyer）```  ');
+  }
+})  
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 福原綾香') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` RO635 \n G11 ```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 井手香織') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` SVT-38 ```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 御崎真美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` FN-49 ```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 中條智世') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` BM59 \n MG34 ```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 花田麻實子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` SV-98 ```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 相坂優歌') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 漢陽造88式 ```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 立花理香') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` Super SASS ```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 齊藤佑圭') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 八一式馬 \n DSR-50```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 高橋李依') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` OTs-44 \n 伊萊莎（Elisa）```  ');
+  }
+}) 
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 奈波果林') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` SSG 69 \n NS2000```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 藍原琴美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` wz.29 \n USAS-12```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 堀江由衣') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 春田```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 金元壽子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` PzB39 \n Saiga-12```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 藤井雪代') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` T-5000 \n K2```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 茅野愛衣') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` NTW-20 \n Kar98k \n StG44```  ');
+  }
+})
           
-          
-          
-          
-          
-          
-          
-          
+client.on('message', msg => {
+  if (msg.content === prefix +' 茅野愛衣') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` NTW-20 \n Kar98k \n StG44```  ');
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
           
           
           
