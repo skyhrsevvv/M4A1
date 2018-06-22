@@ -112,31 +112,31 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 715') {
-    msg.reply('\n 姓名:**NS2000**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n http://img.apkzu.com/img2017/9/19/2017091985785767.png  ');
+    msg.reply('\n 姓名:**NS2000**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**HIKARI** \n\n **震盪打擊**: 進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒) \n	 https://static.mengniang.org/common/4/4c/Pic_NS2000.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 730') {
-    msg.reply('\n 姓名:**M1897**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/1/16/M1897.png/420px-M1897.png  ');
+    msg.reply('\n 姓名:**M1897**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n  繪師:**小迪** \n\n **震盪打擊**: 進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/1/16/M1897.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 720') {
-    msg.reply('\n 姓名:**M500**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/1/17/M500.png/420px-M500.png  ');
+    msg.reply('\n 姓名:**M500**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Ki桑** \n\n **防護專注** :提升自身護甲30%（60%）,持續4秒（6秒）。 開場CD10秒，技能間隔CD20秒（16秒) \n https://static.mengniang.org/common/0/0f/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-M500.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +'725') {
-    msg.reply('\n 姓名:**KS-23**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/6/61/KS-23.png/420px-KS-23.png  ');
+    msg.reply('\n 姓名:**KS-23**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Sky** \n\n **火力專注SG** :提升自身火力30%（120%），且攻擊目標數暫時增至5，持續8秒。開場CD8秒，技能間隔CD20秒（16秒) \n https://static.mengniang.org/common/7/7f/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-KS-23.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 730') {
-    msg.reply('\n 姓名:**RMB-93**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/4/4a/RMB-93.png/420px-RMB-93.png  ');
+    msg.reply('\n 姓名:**RMB-93**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Bison倉鼠** \n\n **震盪打擊** :進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/5/57/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-RMB-93.png ';
   }
 });
 
