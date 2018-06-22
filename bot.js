@@ -58,31 +58,31 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 800'){
-    msg.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**neco** \n **生存本能**: 提升自身護甲:30%（60%）和迴避:30%（60%）,持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
+    msg.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**neco** \n\n **生存本能**: 提升自身護甲:30%（60%）和迴避:30%（60%）,持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' KSG'){
-    msg.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**neco** \n **生存本能**: 提升自身護甲:30%（60%）和迴避:30%（60%）,持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
+    msg.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**neco** \n\n **生存本能**: 提升自身護甲:30%（60%）和迴避:30%（60%）,持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 805') {
-    msg.reply('\n 姓名:**Saiga 12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**防彈乳牛** \n **巨羚號角**: 進行三次傷害逐漸提升的攻擊，對每個目標造成0.8（1.5）/1.2（2.5）/1.6（3.5）倍的傷害。開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/c/cd/Saiga12.png  ');
+    msg.reply('\n 姓名:**Saiga 12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**防彈乳牛** \n\n **巨羚號角**: 進行三次傷害逐漸提升的攻擊，對每個目標造成0.8（1.5）/1.2（2.5）/1.6（3.5）倍的傷害。開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/c/cd/Saiga12.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 810') {
-    msg.reply('\n 姓名:**S.A.T.8**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**NIN** \n **堅壁理論**:給戰鬥中位於第一排的我方人形 增加能吸收12點（35點）傷害的護盾,持續3秒（5秒） 開場CD2秒，技能間隔CD12秒（8秒）\n 	https://img.moegirl.org/common/8/87/Pic_SAT8.png  ');
+    msg.reply('\n 姓名:**S.A.T.8**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**NIN** \n\n **堅壁理論**:給戰鬥中位於第一排的我方人形 增加能吸收12點（35點）傷害的護盾,持續3秒（5秒） 開場CD2秒，技能間隔CD12秒（8秒）\n 	https://img.moegirl.org/common/8/87/Pic_SAT8.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 755') {
-    msg.reply('\n 姓名:**USAS-12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**麻將** \n **狂熱突襲**:6秒(8秒)內提升攻速32%(60%),並裝彈量增加1發(4發) 但該輪射擊後第一次換彈時間延長1秒 開場CD1秒，技能間隔CD20秒（16秒）\n	 http://en.gfwiki.com/images/thumb/6/6c/USAS-12.png/420px-USAS-12.png  ');
+    msg.reply('\n 姓名:**USAS-12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**麻將** \n\n **狂熱突襲**:6秒(8秒)內提升攻速32%(60%),並裝彈量增加1發(4發) 但該輪射擊後第一次換彈時間延長1秒 開場CD1秒，技能間隔CD20秒（16秒）\n	 http://en.gfwiki.com/images/thumb/6/6c/USAS-12.png/420px-USAS-12.png  ');
   }
 });
 
