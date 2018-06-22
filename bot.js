@@ -1305,80 +1305,80 @@ client.on('message', msg => {
   if (msg.content === prefix +' ひなたたまり') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` PP-2000 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 上間江望') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` Spectre M4 \n UMP40 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 伊藤明日香') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` IDW \n FG42 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 堀籠沙耶') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` 64式 \n 63式 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 高橋美佳子') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` M45 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 小倉結衣') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` MAC10 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 大門香實') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` 斯登 \n 95式 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 大西沙織') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` 微型烏茲 \n M14 ```  ');
   }
-}
+})
 
 
 client.on('message', msg => {
   if (msg.content === prefix +' 芹澤優') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` FMG-9 \n PP-19 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 木舩幸歩') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` TMP ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 山本希望') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` EVO \n G28 \n AR70 ```  ');
   }
-}
+})
 
 client.on('message', msg => {
   if (msg.content === prefix +' 苅谷瑠衣') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` EMT-9 \n 56半 \n RMB-93 ```  ');
   }
-}
+})
           
 client.on('message', msg => {
-  if (msg.content === prefix +' 苅谷瑠衣') {
-    msg.reply('\n ** :musical_note: CV一覽:**\n ``` EMT-9 \n 56半 \n RMB-93 ```  ');
+  if (msg.content === prefix +' 井田愛里紗') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` EMT-9 \n SCW \n T65 ```  ');
   }
-}
+})
               
           
           
