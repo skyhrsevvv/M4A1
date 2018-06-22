@@ -76,25 +76,25 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 810') {
-    msg.reply('\n 姓名:**S.A.T.8**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**NIN** \n\n **堅壁理論**:給戰鬥中位於第一排的我方人形 增加能吸收12點（35點）傷害的護盾,持續3秒（5秒） 開場CD2秒，技能間隔CD12秒（8秒）\n 	https://img.moegirl.org/common/8/87/Pic_SAT8.png  ');
+    msg.reply('\n 姓名:**S.A.T.8**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**NIN** \n\n **堅壁理論**: 給戰鬥中位於第一排的我方人形 增加能吸收12點（35點）傷害的護盾,持續3秒（5秒） 開場CD2秒，技能間隔CD12秒（8秒）\n 	https://img.moegirl.org/common/8/87/Pic_SAT8.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 755') {
-    msg.reply('\n 姓名:**USAS-12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**麻將** \n\n **狂熱突襲**:6秒(8秒)內提升攻速32%(60%),並裝彈量增加1發(4發) 但該輪射擊後第一次換彈時間延長1秒 開場CD1秒，技能間隔CD20秒（16秒）\n	 http://en.gfwiki.com/images/thumb/6/6c/USAS-12.png/420px-USAS-12.png  ');
+    msg.reply('\n 姓名:**USAS-12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**麻將** \n\n **狂熱突襲**: 6秒(8秒)內提升攻速32%(60%),並裝彈量增加1發(4發) 但該輪射擊後第一次換彈時間延長1秒 開場CD1秒，技能間隔CD20秒（16秒）\n	 https://static.mengniang.org/common/b/bb/Pic_USAS12.png ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 750') {
-    msg.reply('\n 姓名:**Super-Shorty**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n http://en.gfwiki.com/images/thumb/3/35/Super-Shorty.png/420px-Super-Shorty.png  ');
+    msg.reply('\n 姓名:**Super-Shorty**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**廢人** \n\n **生存本能**: 提升自身護甲:25%（50%）和迴避:28%（55%）, 持續4秒（6秒）。 開場CD10秒，技能間隔CD20秒（16秒) \n https://static.mengniang.org/common/e/e3/SuperShorty.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 740') {
-    msg.reply('\n 姓名:**SPAS-12**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/2/2e/SPAS-12.png/420px-SPAS-12.png  ');
+    msg.reply('\n 姓名:**SPAS-12**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**洲川Terras** \n\n **火力專注SG**: 提升自身火力30%（120%）,且攻擊目標數暫時増至5,持續8秒（不與獨頭彈效果疊加）。開場CD8秒，技能間隔CD20秒（16秒）\n http://en.gfwiki.com/images/thumb/2/2e/SPAS-12.png/420px-SPAS-12.png  ');
   }
 });
 
