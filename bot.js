@@ -1704,9 +1704,59 @@ client.on('message', msg => {
   }
 })
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 悠木碧') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M1918```  ');
+  }
+})
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 名塚佳織') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` PK```  ');
+  }
+})
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 津田美波') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` AEK-999 \n PKP```  ');
+  }
+})
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 諏訪彩花') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 內蓋夫```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 十嵐裕美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` KS-23```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 青木琉璃子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M500 \n M590```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 伊藤靜') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` KSG \n 劊子手（Executioner）```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 生天目仁美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M1887 \n 代理人（Agent）```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 奧野香耶') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 稻草人（Scarecrow） \n 夢想家（Dreamer）```  ');
+  }
+})
 
 
 
