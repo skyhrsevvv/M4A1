@@ -1050,6 +1050,22 @@ client.on('message', msg => {
   }
 })
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 714') {
+    msg.reply('\n 姓名:**M1014**\n 等級:**4星**\n 槍種:**SG**\n https://img.moegirl.org/common/e/ec/Pic_M1014.png  ');
+  }
+})
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 806') {
+    msg.reply('\n 姓名:**FP6**\n 等級:**5星**\n 槍種:**SG**\n https://img.moegirl.org/common/9/98/Pic_FP6.png  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 812') {
+    msg.reply('\n 姓名:**AA12**\n 等級:**5星**\n 槍種:**SG**\n https://img.moegirl.org/common/8/8e/Pic_AA12.png  ');
+  }
+})
 client.login(process.env.BOT_TOKEN);
 
