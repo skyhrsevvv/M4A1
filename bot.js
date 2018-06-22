@@ -1078,11 +1078,15 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 松井惠理子') {
-    msg.reply('\n ``` **:musical_note: CV一覽:** M1911 \n MP-40 \n 蠍式 \n FAMAS```  ');
+    msg.reply('\n **:musical_note: CV一覽:**\n ``` M1911 \n MP-40 \n 蠍式 \n FAMAS```  ');
   }
 })
 
-
+client.on('message', msg => {
+  if (msg.content === prefix +' 伊藤明香') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n PPK \n M60 ```  ');
+  }
+})
 
 
 
