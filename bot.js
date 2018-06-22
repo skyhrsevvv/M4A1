@@ -56,7 +56,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 800') {
-    msg.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種:**SG**\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
+    msg.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種:**:regional_indicator_s: :regional_indicator_g:**\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
   }
 });
 
