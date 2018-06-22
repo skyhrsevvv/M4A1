@@ -63,6 +63,12 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
+  if (msg.content === prefix +' KSG'){
+    msg.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**neco** \n **生存本能**: 提升自身護甲:30%（60%）和迴避:30%（60%）,持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
+  }
+});
+
+client.on('message', msg => {
   if (msg.content === prefix +' 805') {
     msg.reply('\n 姓名:**Saiga 12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**防彈乳牛** \n **巨羚號角** 進行三次傷害逐漸提升的攻擊，對每個目標造成0.8（1.5）/1.2（2.5）/1.6（3.5）倍的傷害。開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/c/cd/Saiga12.png  ');
   }
