@@ -1220,7 +1220,7 @@ client.on('message', msg => {
   if (msg.content === prefix +' 前川涼子') {
     msg.reply('\n ** :musical_note: CV一覽:**\n P226 \n Spitfire ```  ');
   }
-}
+})
 
 
 client.on('message', msg => {
