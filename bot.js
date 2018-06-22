@@ -1078,7 +1078,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 松井惠理子') {
-    msg.reply('\n ```M1911 \n MP-40 \n 蠍式 \n FAMAS```  ');
+    msg.reply('\n ``` M1911 \n MP-40 \n 蠍式 \n FAMAS```  ');
   }
 })
 
