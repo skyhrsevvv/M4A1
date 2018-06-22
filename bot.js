@@ -94,7 +94,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 740') {
-    msg.reply('\n 姓名:**SPAS-12**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**洲川Terras** \n\n **火力專注SG**: 提升自身火力30%（120%）,且攻擊目標數暫時増至5,持續8秒（不與獨頭彈效果疊加）。開場CD8秒，技能間隔CD20秒（16秒）\n http://en.gfwiki.com/images/thumb/2/2e/SPAS-12.png/420px-SPAS-12.png  ');
+    msg.reply('\n 姓名:**SPAS-12**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**洲川Terras** \n\n **火力專注SG**: 提升自身火力30%（120%）,且攻擊目標數暫時増至5,持續8秒（不與獨頭彈效果疊加）。開場CD8秒，技能間隔CD20秒（16秒）\n https://img.moegirl.org/common/6/60/SPAS12.png  ');
   }
 });
 
