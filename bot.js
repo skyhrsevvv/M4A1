@@ -1229,17 +1229,174 @@ client.on('message', msg => {
   }
 })
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 喜多村英梨') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 斯捷奇金 \n M21 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 赤尾ひかる') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` Mk23 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 大坪由佳') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` SPP-1 \n 97霰 \n 干擾者（Intruder）\n 建築師（Architect） ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 黑澤朋世') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` P7 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 今井麻美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 維爾德Mark2 \n PSG-1 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 青木志貴') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` NZ75 \n PP-90 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 藤田茜') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` Five-seveN \n 百式(?) \n G36C ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 古城門志帆') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` CZ-75 \n T91 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 瀨戶麻沙美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 競爭者 \n IWS 2000 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 近藤佳奈子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 諾愛兒·梵密利歐 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 高橋春香') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 伯萊塔38型 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 山根希美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M3 \n G43 \n M16A1 ```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' ひなたたまり') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` PP-2000 ```  ');
+  }
+}
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 上間江望') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` Spectre M4 \n UMP40 ```  ');
+  }
+}
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 伊藤明日香') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` IDW \n FG42 ```  ');
+  }
+}
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 堀籠沙耶') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 64式 \n 63式 ```  ');
+  }
+}
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 高橋美佳子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M45 ```  ');
+  }
+}
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 小倉結衣') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` MAC10 ```  ');
+  }
+}
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 大門香實') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 斯登 \n 95式 ```  ');
+  }
+}
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 大西沙織') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 微型烏茲 \n M14 ```  ');
+  }
+}
 
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 芹澤優') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` FMG-9 \n PP-19 ```  ');
+  }
+}
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 木舩幸歩') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` TMP ```  ');
+  }
+}
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 山本希望') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` EVO \n G28 \n AR70 ```  ');
+  }
+}
 
-
-
-
-
-
-
+client.on('message', msg => {
+  if (msg.content === prefix +' 苅谷瑠衣') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` EMT-9 \n 56半 \n RMB-93 ```  ');
+  }
+}
+          
+client.on('message', msg => {
+  if (msg.content === prefix +' 苅谷瑠衣') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` EMT-9 \n 56半 \n RMB-93 ```  ');
+  }
+}
+              
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
 
 client.login(process.env.BOT_TOKEN);
 
