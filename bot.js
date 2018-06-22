@@ -62,13 +62,13 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 805') {
-    msg.reply('\n 姓名:**Saiga 12**\n 等級:**5星**\n 槍種:**SG**\n http://en.gfwiki.com/images/thumb/b/b9/Saiga-12.png/420px-Saiga-12.png  ');
+    msg.reply('\n 姓名:**Saiga 12**\n 等級:**5星**\n 槍種:**SG**\n https://static.mengniang.org/common/c/cd/Saiga12.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 810') {
-    msg.reply('\n 姓名:**S.A.T.8**\n 等級:**5星**\n 槍種:**SG**\n http://en.gfwiki.com/images/thumb/4/4a/S.A.T.8.png/420px-S.A.T.8.png  ');
+    msg.reply('\n 姓名:**S.A.T.8**\n 等級:**5星**\n 槍種:**SG**\n https://img.moegirl.org/common/8/87/Pic_SAT8.png  ');
   }
 });
 
