@@ -1542,6 +1542,182 @@ client.on('message', msg => {
   }
 })
 
+client.on('message', msg => {
+  if (msg.content === prefix +' 吉岡香織') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` G3```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 御手洗花梨') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 加利爾```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 天野未來') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` SIG-510```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 佐藤利奈') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` AK-47```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 八劔すみれ') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` FN FNC```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 田澤利依子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` ASh-12.7```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 田澤利依子') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` ASh-12.7 \n 80式```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 內山夕實') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` OTs-12 \n AAT-52```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 內田真禮') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` CZ-805```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 萩原亞美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` ARX-160 \n 喙（The one with a beak) \n 獵手（Hunter）```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 井上麻里奈') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 6P62 \n OTs-14```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 舞原夢') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` TAR-21```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 中原麻衣') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 9A-91```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 日高里菜') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 利貝羅勒 \n ART556```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 七瀨亞深') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` AK 5 \n Super-Shorty```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 野中藍') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` HK416```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 佳村遙') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` FAL \n MG4```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 釘宮理惠') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` G41```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 佐倉綾音') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` 97式```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 淺倉杏美') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` Zas M21 \n S.A.T.8```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 筏井香苗') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` DP28```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 新田日和') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` LWMMG```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 吉田幸代') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M1919```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 岩松泉') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M2HB```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 橫矢清華') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` MG42```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 南條愛乃') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M249 SAW```  ');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === prefix +' 南條愛乃') {
+    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M249 SAW```  ');
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
