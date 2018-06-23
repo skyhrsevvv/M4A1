@@ -63,7 +63,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 805') {
+  if (msg.content === prefix +' 805'| msg.content === prefix + ' Saiga 12') {
     msg.reply('\n 姓名:**Saiga 12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**防彈乳牛** \n\n **巨羚號角**: 進行三次傷害逐漸提升的攻擊，對每個目標造成0.8（1.5）/1.2（2.5）/1.6（3.5）倍的傷害。開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/c/cd/Saiga12.png  ');
   }
 });
