@@ -1681,12 +1681,6 @@ client.on('message', msg => {
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 南條愛乃') {
-    msg.reply('\n ** :musical_note: CV一覽:**\n ``` M249 SAW```  ');
-  }
-})
-
-client.on('message', msg => {
   if (msg.content === prefix +' 悠木碧') {
     msg.reply('\n ** :musical_note: CV一覽:**\n ``` M1918```  ');
   }
