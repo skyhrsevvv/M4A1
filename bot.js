@@ -153,7 +153,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 635' | msg.content === prefix + ' Negev'  | msg.content === prefix + ' 肉蓋夫') {
+  if (msg.content === prefix +' 635' | msg.content === prefix + ' Negev'  | msg.content === prefix + ' 內蓋夫') {
     msg.reply('\n 姓名:**Negev**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**十月十日奏** \n\n **狂躁血脈** :被動技能每次換彈後提升火力25%（50%）,效果可疊加,每層效果持續25秒 \n	https://img.moegirl.org/common/0/04/Pic_NEGEV.png   ');
   }
 });
@@ -405,7 +405,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 240 | msg.content === prefix + ' SIG 510') {
+  if (msg.content === prefix +' 240') {
     msg.reply('\n 姓名:**SIG 510**\n 等級::star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/1/16/SIG-510.png/420px-SIG-510.png  ');
   }
 });
