@@ -879,109 +879,103 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e540') {
+  if (msg.content === prefix +' e540'| msg.content === prefix + ' 工事妖精') {
     msg.reply('\n 姓名:**工事妖精**\n 種類:**策略**\n https://img.moegirl.org/common/0/0e/Fortress_3_-0469.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e535') {
+  if (msg.content === prefix +' e535'| msg.content === prefix + ' 火箭妖精') {
     msg.reply('\n 姓名:**火箭妖精**\n 種類:**策略**\n https://img.moegirl.org/common/7/77/Position_3.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e530') {
+  if (msg.content === prefix +' e530'| msg.content === prefix + ' 布雷妖精') {
     msg.reply('\n 姓名:**布雷妖精**\n 種類:**策略**\n https://img.moegirl.org/common/5/55/Landmines_3_-0877.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e510') {
+  if (msg.content === prefix +' e510'| msg.content === prefix + ' 照明妖精') {
     msg.reply('\n 姓名:**照明妖精**\n 種類:**策略**\n https://img.moegirl.org/common/5/56/Illumine_3.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e505') {
+  if (msg.content === prefix +' e505'| msg.content === prefix + ' 搜救妖精') {
     msg.reply('\n 姓名:**搜救妖精**\n 種類:**策略**\n https://img.moegirl.org/common/2/24/Rescue_3_-0435.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e500') {
+  if (msg.content === prefix +' e500'| msg.content === prefix + ' 指揮妖精') {
     msg.reply('\n 姓名:**指揮妖精**\n 種類:**策略**\n https://img.moegirl.org/common/f/fd/Command_3_-0281.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e435') {
+  if (msg.content === prefix +' e435'| msg.content === prefix + ' 暴怒妖精') {
     msg.reply('\n 姓名:**暴怒妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/9/95/Crit_3_-0937.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e430') {
+  if (msg.content === prefix +' e430'| msg.content === prefix + ' 勇士妖精') {
     msg.reply('\n 姓名:**勇士妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181104197994825.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e430') {
-    msg.reply('\n 姓名:**勇士妖精**\n 種類:**策略**\n http://pic.paopaoche.net/up/2017-8/201708181104197994825.png  ');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === prefix +' e410') {
+  if (msg.content === prefix +' e410'| msg.content === prefix + ' 防禦妖精') {
     msg.reply('\n 姓名:**防禦妖精**\n 種類:**策略**\n https://img.moegirl.org/common/d/d0/Defense_3.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e405') {
+  if (msg.content === prefix +' e405'| msg.content === prefix + ' 空降妖精') {
     msg.reply('\n 姓名:**空降妖精**\n 種類:**策略**\n https://img.moegirl.org/common/e/e5/Airborne_3_-0472.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e400') {
+  if (msg.content === prefix +' e400'| msg.content === prefix + ' 增援妖精') {
     msg.reply('\n 姓名:**增援妖精**\n 種類:**策略**\n https://img.moegirl.org/common/b/bd/Reinforce_3.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e340') {
+  if (msg.content === prefix +' e340'| msg.content === prefix + ' 空襲妖精') {
     msg.reply('\n 姓名:**空襲妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181108588295988.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e335') {
+  if (msg.content === prefix +' e335'| msg.content === prefix + ' 炮擊妖精') {
     msg.reply('\n 姓名:**炮擊妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181106406672209.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e330') {
+  if (msg.content === prefix +' e330'| msg.content === prefix + ' 狙擊妖精') {
     msg.reply('\n 姓名:**狙擊妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/d/d0/Sniper_3_-0809.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e310') {
+  if (msg.content === prefix +' e310'| msg.content === prefix + ' 嘲諷妖精') {
     msg.reply('\n 姓名:**嘲諷妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/f/f8/Target_3.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e305') {
+  if (msg.content === prefix +' e305'| msg.content === prefix + ' 護盾妖精') {
     msg.reply('\n 姓名:**護盾妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181205037371763.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' e300') {
+  if (msg.content === prefix +' e300'| msg.content === prefix + ' 盾甲妖精') {
     msg.reply('\n 姓名:**盾甲妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/5/5f/Armor_3.png  ');
   }
 })
@@ -1011,55 +1005,55 @@ client.on('message', msg => {
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 325') {
+  if (msg.content === prefix +' 325'| msg.content === prefix + ' XM8') {
     msg.reply('\n 姓名:**XM8**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r: \n https://img.moegirl.org/common/4/4e/Pic_XM8_D.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 228') {
+  if (msg.content === prefix +' 228'| msg.content === prefix + ' C-MS') {
     msg.reply('\n 姓名:**C-MS**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_m: :regional_indicator_g: \n https://img.moegirl.org/common/9/94/Pic_CBJMS_D.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 353') {
+  if (msg.content === prefix +' 353'| msg.content === prefix + ' MDR') {
     msg.reply('\n 姓名:**MDR**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r: \n https://img.moegirl.org/common/5/5a/Pic_MDR_D.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 53') {
+  if (msg.content === prefix +' 53'| msg.content === prefix + ' K5') {
     msg.reply('\n 姓名:**K5**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_h: :regional_indicator_g: \n https://img.moegirl.org/common/2/20/Pic_K5_D.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 412') {
+  if (msg.content === prefix +' 412'| msg.content === prefix + ' AK12') {
     msg.reply('\n 姓名:**AK12**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r: \n https://img.moegirl.org/common/0/00/Pic_AK12.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 409') {
+  if (msg.content === prefix +' 409'| msg.content === prefix + ' AN94') {
     msg.reply('\n 姓名:**AN94**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r: \n https://img.moegirl.org/common/b/b0/Pic_AN94.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 714') {
+  if (msg.content === prefix +' 714'| msg.content === prefix + ' M1014') {
     msg.reply('\n 姓名:**M1014**\n 等級::star: :star: :star: :star:\n 槍種::regional_indicator_s: :regional_indicator_g: \n https://img.moegirl.org/common/e/ec/Pic_M1014.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 806') {
+  if (msg.content === prefix +' 806'| msg.content === prefix + ' FP6') {
     msg.reply('\n 姓名:**FP6**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_s: :regional_indicator_g: \n https://img.moegirl.org/common/9/98/Pic_FP6.png  ');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 812') {
+  if (msg.content === prefix +' 812'| msg.content === prefix + ' AA12') {
     msg.reply('\n 姓名:**AA12**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_s: :regional_indicator_g: \n https://img.moegirl.org/common/8/8e/Pic_AA12.png  ');
   }
 })
