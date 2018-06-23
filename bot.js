@@ -339,97 +339,97 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 330') {
+  if (msg.content === prefix +' 330' | msg.content === prefix + ' TAR-21') {
     msg.reply('\n 姓名:**TAR-21**\n 等級::star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/8/8c/TAR-21.png/420px-TAR-21.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 330') {
+  if (msg.content === prefix +' 330' | msg.content === prefix + ' FAMUS') {
     msg.reply('\n 姓名:**FAMUS**\n 等級::star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/2/21/FAMAS.png/420px-FAMAS.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 325') {
+  if (msg.content === prefix +' 325' | msg.content === prefix + ' 56-1式') {
     msg.reply('\n 姓名:**56-1式**\n 等級::star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/6/65/Type_56-1.png/420px-Type_56-1.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 330') {
+  if (msg.content === prefix +' 330' | msg.content === prefix + ' AS VAL') {
     msg.reply('\n 姓名:**AS VAL**\n 等級::star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/e/ec/AS_Val.png/420px-AS_Val.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 315') {
+  if (msg.content === prefix +' 315' | msg.content === prefix + ' ARX 160') {
     msg.reply('\n 姓名:**ARX 160**\n 等級::star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/1/1f/ARX-160.png/420px-ARX-160.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 310') {
+  if (msg.content === prefix +' 310' | msg.content === prefix + ' Ots-12'| msg.content === prefix + ' ots-12') {
     msg.reply('\n 姓名:**Ots-12**\n 等級::star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/7/71/OTs-12.png/420px-OTs-12.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 300') {
+  if (msg.content === prefix +' 300' | msg.content === prefix + ' Stg-44' | msg.content === prefix + ' stg-44') {
     msg.reply('\n 姓名:**Stg-44**\n 等級::star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/a/a0/StG44.png/420px-StG44.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 320') {
+  if (msg.content === prefix +' 320' | msg.content === prefix + ' FNC') {
     msg.reply('\n 姓名:**FNC**\n 等級::star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/e/ec/FNC.png/420px-FNC.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 320') {
+  if (msg.content === prefix +' 320' | msg.content === prefix + ' AK-47' | msg.content === prefix + ' AK47) {
     msg.reply('\n 姓名:**AK-47**\n 等級::star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/f/f8/AK-47.png/420px-AK-47.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 245') {
+  if (msg.content === prefix +' 245' | msg.content === prefix + ' FNC') {
     msg.reply('\n 姓名:**63式**\n 等級::star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/d/d3/Type_63.png/420px-Type_63.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 245') {
+  if (msg.content === prefix +' 245' | msg.content === prefix + ' F2000') {
     msg.reply('\n 姓名:**F2000**\n 等級::star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/2/29/F2000.png/420px-F2000.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 240') {
+  if (msg.content === prefix +' 240 | msg.content === prefix + ' SIG 510') {
     msg.reply('\n 姓名:**SIG 510**\n 等級::star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/1/16/SIG-510.png/420px-SIG-510.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 240') {
+  if (msg.content === prefix +' 240' | msg.content === prefix + ' 加利爾') {
     msg.reply('\n 姓名:**加利爾**\n 等級::star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/d/d6/Galil.png/420px-Galil.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 250') {
+  if (msg.content === prefix +' 250' | msg.content === prefix + ' G3') {
     msg.reply('\n 姓名:**G3**\n 等級::star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/4/45/G3.png/420px-G3.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 250') {
+  if (msg.content === prefix +' 250' | msg.content === prefix + ' L85A1') {
     msg.reply('\n 姓名:**L85A1**\n 等級::star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/7/77/L85A1.png/420px-L85A1.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 442') {
+  if (msg.content === prefix +' 442' | msg.content === prefix + ' 卡爾卡諾M91/38') {
     msg.reply('\n 姓名:**卡爾卡諾M91/38**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_r: :regional_indicator_f:\n https://media.discordapp.net/attachments/120561100264570881/392308850579079179/250px-E58DA1E5B094E58DA1E8AFBAM9138_1.png?width=241&height=300  ');
   }
 });
