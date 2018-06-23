@@ -69,7 +69,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 810') {
+  if (msg.content === prefix +' 810' | msg.content === prefix + ' SAT8' | msg.content === prefix + ' S.A.T.8') {
     msg.reply('\n 姓名:**S.A.T.8**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**NIN** \n\n **堅壁理論**: 給戰鬥中位於第一排的我方人形 增加能吸收12點（35點）傷害的護盾,持續3秒（5秒） 開場CD2秒，技能間隔CD12秒（8秒）\n 	https://img.moegirl.org/common/8/87/Pic_SAT8.png  ');
   }
 });
