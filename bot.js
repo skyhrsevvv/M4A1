@@ -178,19 +178,19 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 620') {
-    msg.reply('\n 姓名:**MK48**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/6/6a/Mk48.png/420px-Mk48.png   ');
+    msg.reply('\n 姓名:**MK48**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**SA** \n\n **獵殺衝動** :提升自身命中30%（70%）,且效果時間內攻擊必定暴擊,持續1秒（6秒）。開場CD3秒，技能間隔CD18秒 \n https://img.moegirl.org/common/1/1c/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-MK48.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 620') {
-    msg.reply('\n 姓名:**AEK999**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/8/8b/AEK-999.png/420px-AEK-999.png   ');
+    msg.reply('\n 姓名:**AEK999**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**RAN** \n\n **獵殺衝動N** :夜間提升自身火力20%(40%)和命中30%(70%), 且效果時間內攻擊必定暴擊,持續1秒（6秒）。 晝間不提升自身火力，提升自身命中10%(20%), 且效果時間內攻擊必定暴擊,持續1秒（6秒）。 開場CD8秒，技能間隔CD18秒 \n https://img.moegirl.org/common/8/81/Pic_AEK999.png   ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 610') {
-    msg.reply('\n 姓名:**M60**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/2/2a/M60.png/420px-M60.png   ');
+    msg.reply('\n 姓名:**M60**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**ミカピカゾ** \n\n **火力專注N-MG** :夜間作戰時，提升自身火力40%（105%）,持續4秒（6秒）。晝間作戰時，提升自身火力12%（35%）,持續4秒（6秒）。開場CD8秒，技能間隔CD18秒 \n https://img.moegirl.org/common/8/84/M60x.png   ');
   }
 });
 
