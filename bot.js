@@ -172,7 +172,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 625') {
-    msg.reply('\n 姓名:**阿梅利**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 槍種:**MG**\n  繪師:**水熊** \n\n **蓄勢待發N** :夜間作戰時，提升自身火力28 %（50%），持續6秒（8秒）， 並將該輪射擊的彈鏈延長1發（4發）。 晝間作戰時，提升自身火力6 %（11%），持續6秒（8秒）， 並將該輪射擊的彈鏈延長1發（4發）。 開場CD8秒，技能間隔CD18秒（18秒) \n https://img.moegirl.org/common/b/b3/Ameli.png   ');
+    msg.reply('\n 姓名:**阿梅利**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**水熊** \n\n **蓄勢待發N** :夜間作戰時，提升自身火力28 %（50%），持續6秒（8秒）， 並將該輪射擊的彈鏈延長1發（4發）。 晝間作戰時，提升自身火力6 %（11%），持續6秒（8秒）， 並將該輪射擊的彈鏈延長1發（4發）。 開場CD8秒，技能間隔CD18秒（18秒) \n https://img.moegirl.org/common/b/b3/Ameli.png   ');
   }
 });
 
