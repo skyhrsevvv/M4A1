@@ -75,265 +75,265 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 755') {
+  if (msg.content === prefix +' 755' | msg.content === prefix + ' USAS-12') {
     msg.reply('\n 姓名:**USAS-12**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**麻將** \n\n **狂熱突襲**: 6秒(8秒)內提升攻速32%(60%),並裝彈量增加1發(4發) 但該輪射擊後第一次換彈時間延長1秒 開場CD1秒，技能間隔CD20秒（16秒）\n	 https://static.mengniang.org/common/b/bb/Pic_USAS12.png ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 750') {
+  if (msg.content === prefix +' 750' | msg.content === prefix + ' Super-Shorty' | msg.content === prefix + ' Super Shorty') {
     msg.reply('\n 姓名:**Super-Shorty**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**廢人** \n\n **生存本能**: 提升自身護甲:25%（50%）和迴避:28%（55%）, 持續4秒（6秒）。 開場CD10秒，技能間隔CD20秒（16秒) \n https://static.mengniang.org/common/e/e3/SuperShorty.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 740') {
+  if (msg.content === prefix +' 740' | msg.content === prefix + ' SPAS-12') {
     msg.reply('\n 姓名:**SPAS-12**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**洲川Terras** \n\n **火力專注SG**: 提升自身火力30%（120%）,且攻擊目標數暫時増至5,持續8秒（不與獨頭彈效果疊加）。開場CD8秒，技能間隔CD20秒（16秒）\n https://img.moegirl.org/common/6/60/SPAS12.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 745') {
+  if (msg.content === prefix +' 745' | msg.content === prefix + ' M37') {
     msg.reply('\n 姓名:**M37**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Rain Lan** \n\n **震盪打擊**: 進行一次額外的攻擊,攻擊造成1倍（2倍）傷害,  並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://img.moegirl.org/common/9/92/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-M37.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 740') {
+  if (msg.content === prefix +' 740' | msg.content === prefix + ' M590') {
     msg.reply('\n 姓名:**M590**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**防彈乳牛** \n\n **防護專注**: 提升自身護甲40%（70%），持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n	 https://static.mengniang.org/common/6/65/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-M590.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 715') {
+  if (msg.content === prefix +' 715' | msg.content === prefix + ' NS2000') {
     msg.reply('\n 姓名:**NS2000**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**HIKARI** \n\n **震盪打擊**: 進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒) \n	 https://static.mengniang.org/common/4/4c/Pic_NS2000.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 730') {
+  if (msg.content === prefix +' 730' | msg.content === prefix + ' M1897') {
     msg.reply('\n 姓名:**M1897**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n  繪師:**小迪** \n\n **震盪打擊**: 進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/1/16/M1897.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 720') {
+  if (msg.content === prefix +' 720' | msg.content === prefix + ' M500') {
     msg.reply('\n 姓名:**M500**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Ki桑** \n\n **防護專注** :提升自身護甲30%（60%）,持續4秒（6秒）。 開場CD10秒，技能間隔CD20秒（16秒) \n https://static.mengniang.org/common/0/0f/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-M500.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +'725') {
+  if (msg.content === prefix +'725' | msg.content === prefix + ' KS-23') {
     msg.reply('\n 姓名:**KS-23**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Sky** \n\n **火力專注SG** :提升自身火力30%（120%），且攻擊目標數暫時增至5，持續8秒。開場CD8秒，技能間隔CD20秒（16秒) \n https://static.mengniang.org/common/7/7f/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-KS-23.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 730') {
+  if (msg.content === prefix +' 730' | msg.content === prefix + ' RMB-93') {
     msg.reply('\n 姓名:**RMB-93**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Bison倉鼠** \n\n **震盪打擊** :進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://img.moegirl.org/common/5/57/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-RMB-93.png');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 650') {
+  if (msg.content === prefix +' 650' | msg.content === prefix + ' PKP') {
     msg.reply('\n 姓名:**PKP**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**虎三** \n\n **暴動宣告** :(被動技能)每次攻擊時有5%（20%）概率額外發射一顆必定暴擊的子彈 \n https://img.moegirl.org/common/3/39/PKP.png ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 645') {
+  if (msg.content === prefix +' 645' | msg.content === prefix + ' MG5') {
     msg.reply('\n 姓名:**MG5**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**音符** \n\n **連珠終結** :(被動技能)每攻擊3次,下一次攻擊的傷害變為1.5倍（3倍）\n https://img.moegirl.org/common/a/ab/Pic_MG5.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 640') {
+  if (msg.content === prefix +' 640' | msg.content === prefix + ' MG4') {
     msg.reply('\n 姓名:**MG4**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**neco** \n\n **蓄勢待發** :提升自身火力20%（35%）,持續6秒（8秒）, 並將該輪射擊的彈鏈延長1發（4發）。 開場CD8秒，技能間隔CD18秒 \n https://img.moegirl.org/common/b/bc/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-MG4.png ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 635') {
+  if (msg.content === prefix +' 635' | msg.content === prefix + ' Negev'  | msg.content === prefix + ' 肉蓋夫') {
     msg.reply('\n 姓名:**Negev**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**十月十日奏** \n\n **狂躁血脈** :被動技能每次換彈後提升火力25%（50%）,效果可疊加,每層效果持續25秒 \n	https://img.moegirl.org/common/0/04/Pic_NEGEV.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 615') {
+  if (msg.content === prefix +' 615' | msg.content === prefix + ' 80式') {
     msg.reply('\n 姓名:**80式**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**兔爺** \n\n **火力專注MG** :提升自身火力25%(70%)，持續4(6)秒。開場CD8秒，技能間隔CD18秒 \n https://img.moegirl.org/common/6/65/Pic_80type.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 625') {
+  if (msg.content === prefix +' 625' | msg.content === prefix + ' 阿梅利') {
     msg.reply('\n 姓名:**阿梅利**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**水熊** \n\n **蓄勢待發N** :夜間作戰時，提升自身火力28 %（50%），持續6秒（8秒）， 並將該輪射擊的彈鏈延長1發（4發）。 晝間作戰時，提升自身火力6 %（11%），持續6秒（8秒）， 並將該輪射擊的彈鏈延長1發（4發）。 開場CD8秒，技能間隔CD18秒（18秒) \n https://img.moegirl.org/common/b/b3/Ameli.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 620') {
+  if (msg.content === prefix +' 620' | msg.content === prefix + ' MK48') {
     msg.reply('\n 姓名:**MK48**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**SA** \n\n **獵殺衝動** :提升自身命中30%（70%）,且效果時間內攻擊必定暴擊,持續1秒（6秒）。開場CD3秒，技能間隔CD18秒 \n https://img.moegirl.org/common/1/1c/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-MK48.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 620') {
+  if (msg.content === prefix +' 620' | msg.content === prefix + ' AEK999') {
     msg.reply('\n 姓名:**AEK999**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**RAN** \n\n **獵殺衝動N** :夜間提升自身火力20%(40%)和命中30%(70%), 且效果時間內攻擊必定暴擊,持續1秒（6秒）。 晝間不提升自身火力，提升自身命中10%(20%), 且效果時間內攻擊必定暴擊,持續1秒（6秒）。 開場CD8秒，技能間隔CD18秒 \n https://img.moegirl.org/common/8/81/Pic_AEK999.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 610') {
+  if (msg.content === prefix +' 610' | msg.content === prefix + ' M60') {
     msg.reply('\n 姓名:**M60**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**ミカピカゾ** \n\n **火力專注N-MG** :夜間作戰時，提升自身火力40%（105%）,持續4秒（6秒）。晝間作戰時，提升自身火力12%（35%）,持續4秒（6秒）。開場CD8秒，技能間隔CD18秒 \n https://img.moegirl.org/common/8/84/M60x.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 625') {
+  if (msg.content === prefix +' 625' | msg.content === prefix + ' M1918') {
     msg.reply('\n 姓名:**M1918**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/f/f4/M1918.png/420px-M1918.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 630') {
+  if (msg.content === prefix +' 630' | msg.content === prefix + ' PK') {
     msg.reply('\n 姓名:**PK**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/3/32/PK.png/420px-PK.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 630') {
+  if (msg.content === prefix +' 630' | msg.content === prefix + ' MG3') {
     msg.reply('\n 姓名:**MG3**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/a/a0/MG3.png/420px-MG3.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 610') {
+  if (msg.content === prefix +' 610' | msg.content === prefix + ' M2HB') {
     msg.reply('\n 姓名:**M2HB**\n 等級::star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/8/89/M2HB.png/420px-M2HB.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 550') {
+  if (msg.content === prefix +' 550' | msg.content === prefix + ' MG42') {
     msg.reply('\n 姓名:**MG42**\n 等級::star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/7/75/MG42.png/420px-MG42.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 540') {
+  if (msg.content === prefix +' 540' | msg.content === prefix + ' M1919A4') {
     msg.reply('\n 姓名:**M1919A4**\n 等級::star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/6/60/M1919A4.png/420px-M1919A4.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 520') {
+  if (msg.content === prefix +' 520' | msg.content === prefix + ' 布倫') {
     msg.reply('\n 姓名:**布倫**\n 等級::star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/a/a4/Bren.png/420px-Bren.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 500') {
+  if (msg.content === prefix +' 500' | msg.content === prefix + ' DP28') {
     msg.reply('\n 姓名:**DP28**\n 等級::star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/c/cf/DP28.png/420px-DP28.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 510') {
+  if (msg.content === prefix +' 510' | msg.content === prefix + ' LWMMG') {
     msg.reply('\n 姓名:**LWMMG**\n 等級::star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/f/f9/LWMMG.png/420px-LWMMG.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 500') {
+  if (msg.content === prefix +' 500' | msg.content === prefix + ' MG34') {
     msg.reply('\n 姓名:**MG34**\n 等級::star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/0/0d/MG34.png/420px-MG34.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 450') {
+  if (msg.content === prefix +' 450' | msg.content === prefix + ' FG42') {
     msg.reply('\n 姓名:**FG42**\n 等級::star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/e/e3/FG42.png/420px-FG42.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 450') {
+  if (msg.content === prefix +' 450' | msg.content === prefix + ' AAT-52') {
     msg.reply('\n 姓名:**AAT-52**\n 等級::star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/0/02/AAT-52.png/420px-AAT-52.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 405') {
+  if (msg.content === prefix +' 405' | msg.content === prefix + ' Zas M21') {
     msg.reply('\n 姓名:**Zas M21**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n https://media.discordapp.net/attachments/120561100264570881/392277511293370398/250px-Zas_M21_1.png   ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 352') {
+  if (msg.content === prefix +' 352' | msg.content === prefix + ' K2') {
     msg.reply('\n 姓名:**K2**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  https://media.discordapp.net/attachments/120561100264570881/392278008116805637/800px-Pic_K2.png?width=500&height=500  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 348') {
+  if (msg.content === prefix +' 348' | msg.content === prefix + ' T91') {
     msg.reply('\n 姓名:**T91**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/1/1f/T91.png/420px-T91.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 358') {
+  if (msg.content === prefix +' 358' | msg.content === prefix + ' RFB') {
     msg.reply('\n 姓名:**RFB**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/7/77/RFB.png/420px-RFB.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 350') {
+  if (msg.content === prefix +' 350' | msg.content === prefix + ' 97式') {
     msg.reply('\n 姓名:**97式**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/6/6b/Type_97.png/420px-Type_97.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 350') {
+  if (msg.content === prefix +' 350' | msg.content === prefix + ' 95式') {
     msg.reply('\n 姓名:**95式**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/e/ee/Type_95.png/420px-Type_95.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 404') {
+  if (msg.content === prefix +' 404' | msg.content === prefix + ' G11') {
     msg.reply('\n 姓名:**G11**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/f/f2/G11.png/420px-G11.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 405') {
+  if (msg.content === prefix +' 405' | msg.content === prefix + ' G41') {
     msg.reply('\n 姓名:**G41**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/7/71/G41.png/420px-G41.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 345') {
+  if (msg.content === prefix +' 345' | msg.content === prefix + ' FAL') {
     msg.reply('\n 姓名:**FAL**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n  http://en.gfwiki.com/images/thumb/e/e9/FAL.png/420px-FAL.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 355') {
+  if (msg.content === prefix +' 355' | msg.content === prefix + ' HK416') {
     msg.reply('\n 姓名:**HK416**\n 等級::star: :star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/9/9a/HK416.png/420px-HK416.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 340') {
+  if (msg.content === prefix +' 340' | msg.content === prefix + ' 利貝羅勒') {
     msg.reply('\n 姓名:**利貝羅勒**\n 等級::star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/1/18/Ribeyrolles.png/420px-Ribeyrolles.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 335') {
+  if (msg.content === prefix +' 335' | msg.content === prefix + ' 9A91') {
     msg.reply('\n 姓名:**9A91**\n等級::star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/a/a4/9A-91.png/420px-9A-91.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 340') {
+  if (msg.content === prefix +' 340' | msg.content === prefix + ' G36') {
     msg.reply('\n 姓名:**G36**\n 等級::star: :star: :star: :star:\n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/5/51/G36.png/420px-G36.png  ');
   }
 });
