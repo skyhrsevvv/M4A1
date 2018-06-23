@@ -387,13 +387,13 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 320' | msg.content === prefix + ' AK-47' | msg.content === prefix + ' AK47) {
+  if (msg.content === prefix +' 320' | msg.content === prefix + ' AK-47') {
     msg.reply('\n 姓名:**AK-47**\n 等級::star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/f/f8/AK-47.png/420px-AK-47.png  ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix +' 245' | msg.content === prefix + ' FNC') {
+  if (msg.content === prefix +' 245' | msg.content === prefix + ' 63式') {
     msg.reply('\n 姓名:**63式**\n 等級::star: :star: :star: \n 槍種::regional_indicator_a: :regional_indicator_r:\n http://en.gfwiki.com/images/thumb/d/d3/Type_63.png/420px-Type_63.png  ');
   }
 });
