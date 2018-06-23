@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const Music = require('discord.js-musicbot-addon');
 const prefix = "AR15";
 
 
@@ -10,10 +9,7 @@ const prefix = "AR15";
   console.log('Bot operational.');
   client.user.setGame('炸彈人');
 });
-
-Music.start(client, {
-  youtubeKey: 'sum-key_hhereas'
-});     
+   
             
 client.on('message', msg => {
   if (msg.content === prefix +' help') {
