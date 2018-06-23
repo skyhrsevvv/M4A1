@@ -136,49 +136,43 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 730') {
-    msg.reply('\n 姓名:**RMB-93**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Bison倉鼠** \n\n **震盪打擊** :進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://static.mengniang.org/common/5/57/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-RMB-93.png ');
+    msg.reply('\n 姓名:**RMB-93**\n 等級::star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g:\n 繪師:**Bison倉鼠** \n\n **震盪打擊** :進行一次額外的攻擊,攻擊造成1倍（2倍）傷害, 並造成2碼（3碼）的擊退效果。 開場CD8秒，技能間隔CD20秒（16秒）\n https://img.moegirl.org/common/5/57/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-RMB-93.png');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 650') {
-    msg.reply('\n 姓名:**PKP**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/3/39/PKP.png/420px-PKP.png  ');
+    msg.reply('\n 姓名:**PKP**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**虎三** \n\n **暴動宣告** :(被動技能)每次攻擊時有5%（20%）概率額外發射一顆必定暴擊的子彈 \n https://img.moegirl.org/common/3/39/PKP.png ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 645') {
-    msg.reply('\n 姓名:**MG5**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/6/6c/MG5.png/420px-MG5.png  ');
+    msg.reply('\n 姓名:**MG5**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**音符** \n\n **連珠終結** :(被動技能)每攻擊3次,下一次攻擊的傷害變為1.5倍（3倍）\n https://img.moegirl.org/common/a/ab/Pic_MG5.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 640') {
-    msg.reply('\n 姓名:**MG4**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/2/24/MG4.png/420px-MG4.png  ');
+    msg.reply('\n 姓名:**MG4**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**neco** \n\n **蓄勢待發** :提升自身火力20%（35%）,持續6秒（8秒）, 並將該輪射擊的彈鏈延長1發（4發）。 開場CD8秒，技能間隔CD18秒 \n https://img.moegirl.org/common/b/bc/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF-MG4.png ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 635') {
-    msg.reply('\n 姓名:**Negev**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/3/3c/Negev.png/420px-Negev.png   ');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === prefix +' 635') {
-    msg.reply('\n 姓名:**Negev**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/3/3c/Negev.png/420px-Negev.png   ');
+    msg.reply('\n 姓名:**Negev**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**十月十日奏** \n\n **狂躁血脈** :被動技能每次換彈後提升火力25%（50%）,效果可疊加,每層效果持續25秒 \n	https://img.moegirl.org/common/0/04/Pic_NEGEV.png   ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 615') {
-    msg.reply('\n 姓名:**80式**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n https://img.moegirl.org/common/6/65/Pic_80type.png   ');
+    msg.reply('\n 姓名:**80式**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**兔爺** \n\n **火力專注MG** :提升自身火力25%(70%)，持續4(6)秒。開場CD8秒，技能間隔CD18秒 \n https://img.moegirl.org/common/6/65/Pic_80type.png   ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 625') {
-    msg.reply('\n 姓名:**阿梅利**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 槍種:**MG**\n http://en.gfwiki.com/images/thumb/b/b3/Ameli.png/420px-Ameli.png   ');
+    msg.reply('\n 姓名:**阿梅利**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 槍種:**MG**\n  繪師:**水熊** \n\n **蓄勢待發N** :夜間作戰時，提升自身火力28 %（50%），持續6秒（8秒）， 並將該輪射擊的彈鏈延長1發（4發）。 晝間作戰時，提升自身火力6 %（11%），持續6秒（8秒）， 並將該輪射擊的彈鏈延長1發（4發）。 開場CD8秒，技能間隔CD18秒（18秒) \n https://img.moegirl.org/common/b/b3/Ameli.png   ');
   }
 });
 
