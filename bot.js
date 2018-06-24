@@ -9,6 +9,10 @@ const prefix = "AR15";
   console.log('Bot operational.');
   client.user.setGame('炸彈人');
 });
+
+client.on("ready", () => {
+    client.user.setGame("with my code");
+});
    
 
 client.on('message', msg => {
