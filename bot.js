@@ -10,7 +10,7 @@ const prefix = "AR15";
   client.user.setGame('炸彈人');
 });
 
-
+client.user.setActivity('yourGameNameHere', { type: 'PLAYING' });
 
 
 client.on('message', msg => {
