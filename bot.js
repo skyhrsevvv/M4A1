@@ -885,103 +885,103 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' e540'| msg.content === prefix + ' 工事妖精') {
-    msg.reply('\n 姓名:**工事妖精**\n 種類:**策略**\n 傷害: 4%(15%) \n 暴傷: 5%(20%) \n 命中: 12%(50%) \n 回避: 10%(40%) \n 護甲: 2%(10%) \n\n **緊急堡壘** : 在梯隊所在處建造一個不動的堡壘，三回合內我方在該點位戰鬥時，傷害、命中、迴避、護甲和暴擊率提升10%（30%） \n https://img.moegirl.org/common/0/0e/Fortress_3_-0469.png  ');
+    msg.reply('\n 姓名:**工事妖精**\n 種類:**策略**\n\n 傷害: 4%(15%) \n 暴傷: 5%(20%) \n 命中: 12%(50%) \n 回避: 10%(40%) \n 護甲: 2%(10%) \n\n **緊急堡壘** : 在梯隊所在處建造一個不動的堡壘，三回合內我方在該點位戰鬥時，傷害、命中、迴避、護甲和暴擊率提升10%（30%） \n https://img.moegirl.org/common/0/0e/Fortress_3_-0469.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e535'| msg.content === prefix + ' 火箭妖精') {
-    msg.reply('\n 姓名:**火箭妖精**\n 種類:**策略**\n 傷害: -- \n 暴傷: 8%(35%) \n 命中: 10%(44%) \n 回避: -- \n 護甲: 5%(22%) \n\n **陣地死神** :部署一個存在兩回合共三發的發射器，敵人在兩格內範圍移動時，會受到當前血量10%（20%）的傷害，該傷害對boss無效 \n https://img.moegirl.org/common/7/77/Position_3.png  ');
+    msg.reply('\n 姓名:**火箭妖精**\n 種類:**策略**\n\n 傷害: -- \n 暴傷: 8%(35%) \n 命中: 10%(44%) \n 回避: -- \n 護甲: 5%(22%) \n\n **陣地死神** :部署一個存在兩回合共三發的發射器，敵人在兩格內範圍移動時，會受到當前血量10%（20%）的傷害，該傷害對boss無效 \n https://img.moegirl.org/common/7/77/Position_3.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e530'| msg.content === prefix + ' 布雷妖精') {
-    msg.reply('\n 姓名:**布雷妖精**\n 種類:**策略**\n https://img.moegirl.org/common/5/55/Landmines_3_-0877.png  ');
+    msg.reply('\n 姓名:**布雷妖精**\n 種類:**策略**\n\n 傷害: 6%(25%) \n 暴傷: -- \n 命中: 10%(44%) \n 回避: 20%(85%) \n 護甲: -- \n\n **地雷陣線** :相鄰無人的點上埋藏一枚存在兩回合的地雷，當敵人觸碰後會受到當前血量20%（50%）的傷害，該傷害對boss無效 \n https://img.moegirl.org/common/5/55/Landmines_3_-0877.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e510'| msg.content === prefix + ' 照明妖精') {
-    msg.reply('\n 姓名:**照明妖精**\n 種類:**策略**\n https://img.moegirl.org/common/5/56/Illumine_3.png  ');
+    msg.reply('\n 姓名:**照明妖精**\n 種類:**策略**\n\n 傷害: -- \n 暴傷: 8%(38%) \n 命中: 20%(90%) \n 回避: 7%(32%) \n 護甲: 2%(8%) \n\n **夜間照明** :夜間作戰時，兩回合內本梯隊視野提升0格（2格），在此期間每場戰斗全隊命中提升10%（30%），持續20秒 \n https://img.moegirl.org/common/5/56/Illumine_3.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e505'| msg.content === prefix + ' 搜救妖精') {
-    msg.reply('\n 姓名:**搜救妖精**\n 種類:**策略**\n https://img.moegirl.org/common/2/24/Rescue_3_-0435.png  ');
+    msg.reply('\n 姓名:**搜救妖精**\n 種類:**策略**\n\n 傷害: 8%(32%) \n 暴傷: -- \n 命中: 20%(80%) \n 回避: 16%(64%) \n 護甲: -- \n\n **高效搜救** :下一場戰鬥中本梯隊獲得稀有人形概率極小幅（極大）提升 \n https://img.moegirl.org/common/2/24/Rescue_3_-0435.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e500'| msg.content === prefix + ' 指揮妖精') {
-    msg.reply('\n 姓名:**指揮妖精**\n 種類:**策略**\n https://img.moegirl.org/common/f/fd/Command_3_-0281.png  ');
+    msg.reply('\n 姓名:**指揮妖精**\n 種類:**策略**\n\n 傷害: 8%(36%) \n 暴傷: 8%(36%) \n 命中: -- \n 回避: 8%(32%) \n 護甲: 2%(8%) \n\n **超量經驗** :下一場戰鬥本梯隊獲得經驗增加5%（25%）（經驗特訓無效） \n https://img.moegirl.org/common/f/fd/Command_3_-0281.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e435'| msg.content === prefix + ' 暴怒妖精') {
-    msg.reply('\n 姓名:**暴怒妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/9/95/Crit_3_-0937.png  ');
+    msg.reply('\n 姓名:**暴怒妖精**\n 種類:**戰鬥**\n\n 傷害: 3%(15%) \n 暴傷: 8%(40%) \n 命中: -- \n 回避: 8%(40%) \n 護甲: 2%(10%) \n\n **殺意湧動** :下場戰鬥中提升本梯隊全體命中10%（50%）和暴擊率10%（25%），持續20秒（不可疊加）\n https://img.moegirl.org/common/9/95/Crit_3_-0937.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e430'| msg.content === prefix + ' 勇士妖精') {
-    msg.reply('\n 姓名:**勇士妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181104197994825.png  ');
+    msg.reply('\n 姓名:**勇士妖精**\n 種類:**戰鬥**\n\n 傷害: 5%(25%) \n 暴傷: -- \n 命中: 16%(80%) \n 回避: 8%(40%) \n 護甲: 2%(10%) \n\n **戰鬥效率** :下場戰鬥中提升本梯隊全體傷害5%（20%）和射速5%（10%），持續20秒（不可疊加）\n https://img.moegirl.org/common/0/05/Fighting_3.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e410'| msg.content === prefix + ' 防禦妖精') {
-    msg.reply('\n 姓名:**防禦妖精**\n 種類:**策略**\n https://img.moegirl.org/common/d/d0/Defense_3.png  ');
+    msg.reply('\n 姓名:**防禦妖精**\n 種類:**策略**\n\n 傷害: 4%(22%) \n 暴傷: -- \n 命中: -- \n 回避: 14%(80%) \n 護甲: 4%(20%) \n\n **臨時裝甲** :一回合內每場戰鬥中本梯隊全體減傷10%（30%），持續20秒 \n https://img.moegirl.org/common/d/d0/Defense_3.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e405'| msg.content === prefix + ' 空降妖精') {
-    msg.reply('\n 姓名:**空降妖精**\n 種類:**策略**\n https://img.moegirl.org/common/e/e5/Airborne_3_-0472.png  ');
+    msg.reply('\n 姓名:**空降妖精**\n 種類:**策略**\n\n 傷害: 6%(36%) \n 暴傷: 6%(40%) \n 命中: -- \n 回避: 5%(32%) \n 護甲: 1%(80%) \n\n **機場解放** :本梯隊可空降至範圍3以內的任意機場，同時兩回合內全隊傷害、命中、迴避、護甲和暴擊率降低90%（40%）\n https://img.moegirl.org/common/e/e5/Airborne_3_-0472.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e400'| msg.content === prefix + ' 增援妖精') {
-    msg.reply('\n 姓名:**增援妖精**\n 種類:**策略**\n https://img.moegirl.org/common/b/bd/Reinforce_3.png  ');
+    msg.reply('\n 姓名:**增援妖精**\n 種類:**策略**\n\n 傷害: 2%(12%) \n 暴傷: 2%(15%) \n 命中: -- \n 回避: 14%(88%) \n 護甲: 2%(12%) \n\n **增援人形** :本梯隊中血量百分比最少的戰術人形獲得一個編制的增援，同時一回合內每場戰鬥中全隊迴避提升3%（10%），持續20秒 \n https://img.moegirl.org/common/b/bd/Reinforce_3.png  ');
   }
 })
 
 client.on('message', msg => {
   if (msg.content === prefix +' e340'| msg.content === prefix + ' 空襲妖精') {
-    msg.reply('\n 姓名:**空襲妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181108588295988.png  ');
+    msg.reply('\n 姓名:**空襲妖精**\n 種類:**戰鬥**\n\n 傷害: 5%(30%) \n 暴傷: -- \n 命中: 8%(50%) \n 回避: 6%(40%) \n 護甲: 2%(10%) \n\n **致命空襲** :下場戰鬥開場時呼叫空中打擊，對全體敵人造成80（500）的傷害。開場CD1秒 \n http://pic.paopaoche.net/up/2017-8/201708181108588295988.png  ');
   }
 })
 
 client.on('message', msg => {
   if (msg.content === prefix +' e335'| msg.content === prefix + ' 炮擊妖精') {
-    msg.reply('\n 姓名:**炮擊妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181106406672209.png  ');
+    msg.reply('\n 姓名:**炮擊妖精**\n 種類:**戰鬥**\n\n 傷害: 11%(55%) \n 暴傷: -- \n 命中: -- \n 回避: 11%(56%) \n 護甲: 1%(6%) \n\n **砲擊指令** :下場戰鬥中發射一枚迫擊砲彈,對2.5範圍內的敵人造成200（1200）的傷害。開場CD5秒 \n https://img.moegirl.org/common/a/a3/Bombard_3.png ');
   }
 })
 
 client.on('message', msg => {
   if (msg.content === prefix +' e330'| msg.content === prefix + ' 狙擊妖精') {
-    msg.reply('\n 姓名:**狙擊妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/d/d0/Sniper_3_-0809.png  ');
+    msg.reply('\n 姓名:**狙擊妖精**\n 種類:**戰鬥**\n\n 傷害: -- \n 暴傷: 7%(36%) \n 命中: 18%(88%) \n 回避: 6%(28%) \n 護甲: 3%(15%) \n\n **狙擊指令** :下場戰鬥中瞄準敵方血量最高的角色，造成2500點（20000點）傷害。開場CD10秒 \n https://img.moegirl.org/common/d/d0/Sniper_3_-0809.png  ');
   }
 })
 
 client.on('message', msg => {
   if (msg.content === prefix +' e310'| msg.content === prefix + ' 嘲諷妖精') {
-    msg.reply('\n 姓名:**嘲諷妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/f/f8/Target_3.png  ');
+    msg.reply('\n 姓名:**嘲諷妖精**\n 種類:**戰鬥**\n\n 傷害: 3%(18%) \n 暴傷: 4%(25%) \n 命中: 10%(58%) \n 回避: 5%(28%) \n 護甲: 2%(8%) \n\n **嘲諷靶機** :下場戰鬥開場時投放一個能夠吸引敵方火力的靶機，靶機具有250（1000）生命值 \n https://img.moegirl.org/common/f/f8/Target_3.png  ');
   }
 })
 
 client.on('message', msg => {
   if (msg.content === prefix +' e305'| msg.content === prefix + ' 護盾妖精') {
-    msg.reply('\n 姓名:**護盾妖精**\n 種類:**戰鬥**\n http://pic.paopaoche.net/up/2017-8/201708181205037371763.png  ');
+    msg.reply('\n 姓名:**護盾妖精**\n 種類:**戰鬥**\n\n 傷害: 4%(20%) \n 暴傷: -- \n 命中: 12%(60%) \n 回避: 16%(80%) \n 護甲: -- \n\n **能量護盾** :下場戰鬥中為本梯隊內的所有衝鋒槍張開護盾,每個護盾最多吸收40點（150點）傷害 \n https://img.moegirl.org/common/1/15/Shield_3.png  ');
   }
 })
 
 client.on('message', msg => {
   if (msg.content === prefix +' e300'| msg.content === prefix + ' 盾甲妖精') {
-    msg.reply('\n 姓名:**盾甲妖精**\n 種類:**戰鬥**\n https://img.moegirl.org/common/5/5f/Armor_3.png  ');
+    msg.reply('\n 姓名:**盾甲妖精**\n 種類:**戰鬥**\n\n 傷害: 4%(22%) \n 暴傷: 4%(22%) \n 命中: -- \n 回避: -- \n 護甲:5%(25%) \n\n **防暴強化** :下場戰鬥中為本梯隊內的所有霰彈槍加強防暴能力，護甲提升15%（50%），持續20秒 \n https://img.moegirl.org/common/5/5f/Armor_3.png  ');
   }
 })
 
