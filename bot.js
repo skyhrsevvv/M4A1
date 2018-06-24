@@ -10,13 +10,8 @@ const prefix = "AR15";
   client.user.setGame('炸彈人');
 });
 
-await client.user.setPresence({
-  data: {
-       game: {
-            name: '?help'
-        }
-    }
-})
+client.setGame("Some game title here");
+
 
 client.on('message', msg => {
   if (msg.content === prefix +' help') {
