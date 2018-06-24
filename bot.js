@@ -201,19 +201,19 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 630' | msg.content === prefix + ' PK') {
-    msg.reply('\n 姓名:**PK**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/3/32/PK.png/420px-PK.png   ');
+    msg.reply('\n 姓名:**PK**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**木shiyo** \n\n **連珠終結** :(被動技能)每攻擊3次，下一次攻擊的傷害變為1.5倍（2.6倍) \n	https://img.moegirl.org/common/3/32/PK.png   ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 630' | msg.content === prefix + ' MG3') {
-    msg.reply('\n 姓名:**MG3**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/a/a0/MG3.png/420px-MG3.png   ');
+    msg.reply('\n 姓名:**MG3**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**貓頭神** \n\n **蓄勢待發** :提升自身火力18%（30%）,持續6秒（8秒）,並將該輪射擊的彈鏈延長1發（4發）。開場CD8秒，技能間隔CD18秒 \n	https://img.moegirl.org/common/a/a0/MG3.png   ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' 610' | msg.content === prefix + ' M2HB') {
-    msg.reply('\n 姓名:**M2HB**\n 等級::star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/8/89/M2HB.png/420px-M2HB.png   ');
+    msg.reply('\n 姓名:**M2HB**\n 等級::star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**15K** \n\n **連珠終結** :(被動技能)每攻擊3次，下一次的傷害變為1.2倍（2.4倍) \n https://img.moegirl.org/common/8/89/M2HB.png   ');
   }
 });
 
