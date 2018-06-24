@@ -951,7 +951,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' e340'| msg.content === prefix + ' 空襲妖精') {
-    msg.reply('\n 姓名:**空襲妖精**\n 種類:**戰鬥**\n\n 傷害: 5%(30%) \n 暴傷: -- \n 命中: 8%(50%) \n 回避: 6%(40%) \n 護甲: 2%(10%) \n\n **致命空襲** :下場戰鬥開場時呼叫空中打擊，對全體敵人造成80（500）的傷害。開場CD1秒 \n http://pic.paopaoche.net/up/2017-8/201708181108588295988.png  ');
+    msg.reply('\n 姓名:**空襲妖精**\n 種類:**戰鬥**\n\n 傷害: 5%(30%) \n 暴傷: -- \n 命中: 8%(50%) \n 回避: 6%(40%) \n 護甲: 2%(10%) \n\n **致命空襲** :下場戰鬥開場時呼叫空中打擊，對全體敵人造成80（500）的傷害。開場CD1秒 \n https://img.moegirl.org/common/2/21/Air_attack_3.png  ');
   }
 })
 
