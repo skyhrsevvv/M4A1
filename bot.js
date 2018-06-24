@@ -885,13 +885,13 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' e540'| msg.content === prefix + ' 工事妖精') {
-    msg.reply('\n 姓名:**工事妖精**\n 種類:**策略**\n https://img.moegirl.org/common/0/0e/Fortress_3_-0469.png  ');
+    msg.reply('\n 姓名:**工事妖精**\n 種類:**策略**\n 傷害: 4%(15%) \n 暴傷: 5%(20%) \n 命中: 12%(50%) \n 回避: 10%(40%) \n 護甲: 2%(10%) \n\n **緊急堡壘** : 在梯隊所在處建造一個不動的堡壘，三回合內我方在該點位戰鬥時，傷害、命中、迴避、護甲和暴擊率提升10%（30%） \n https://img.moegirl.org/common/0/0e/Fortress_3_-0469.png  ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === prefix +' e535'| msg.content === prefix + ' 火箭妖精') {
-    msg.reply('\n 姓名:**火箭妖精**\n 種類:**策略**\n https://img.moegirl.org/common/7/77/Position_3.png  ');
+    msg.reply('\n 姓名:**火箭妖精**\n 種類:**策略**\n 傷害: -- \n 暴傷: 8%(35%) \n 命中: 10%(44%) \n 回避: -- \n 護甲: 5%(22%) \n\n **陣地死神** :部署一個存在兩回合共三發的發射器，敵人在兩格內範圍移動時，會受到當前血量10%（20%）的傷害，該傷害對boss無效 \n https://img.moegirl.org/common/7/77/Position_3.png  ');
   }
 });
 
