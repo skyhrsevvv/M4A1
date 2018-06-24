@@ -10,7 +10,14 @@ const prefix = "AR15";
   client.user.setGame('炸彈人');
 });
    
-            
+ 
+bot.on('message', message => { 
+    if (message.content === "1"){ 
+        message.channel.sendMessage("2"); 
+    }
+});
+
+
 client.on('message', msg => {
   if (msg.content === prefix +' help') {
     msg.reply('你好 我是最可靠的AR15 只要AR15 人型/裝備時間 的話你就可以查到你想要的東西喔!');
