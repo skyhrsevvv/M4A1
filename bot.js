@@ -10,13 +10,6 @@ const prefix = "AR15";
   client.user.setGame('炸彈人');
 });
    
- 
-bot.on('message', message => { 
-    if (message.content === "1"){ 
-        message.channel.sendMessage("2"); 
-    }
-});
-
 
 client.on('message', msg => {
   if (msg.content === prefix +' help') {
@@ -64,7 +57,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 800'| msg.content === prefix + ' KSG') {
-    msg.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**neco** \n\n **生存本能**: 提升自身護甲:30%（60%）和迴避:30%（60%）,持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
+    msg.chan.reply('\n 姓名:**KSG**\n 等級::star: :star: :star: :star: :star: \n 槍種::regional_indicator_s: :regional_indicator_g: \n 繪師:**neco** \n\n **生存本能**: 提升自身護甲:30%（60%）和迴避:30%（60%）,持續4秒（6秒）。開場CD10秒，技能間隔CD20秒（16秒）\n https://media.discordapp.net/attachments/120561100264570881/388985357791657986/420px-KSG.png');
   }
 });
 
