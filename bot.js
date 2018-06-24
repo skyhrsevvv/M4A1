@@ -189,7 +189,13 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === prefix +' 625' | msg.content === prefix + ' M1918') {
-    msg.reply('\n 姓名:**M1918**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n http://en.gfwiki.com/images/thumb/f/f4/M1918.png/420px-M1918.png   ');
+    msg.reply('\n 姓名:**M1918**\n 等級::star: :star: :star: :star: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**水烏龜** \n\n **火力專注MG** :提升自身火力25% →28%（70% →75%）,持續4秒（6秒）。 開場CD8秒，技能間隔CD18秒 \n	https://img.moegirl.org/common/f/f4/M1918.png   ');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === prefix +' M1918' | msg.content === prefix + ' M1918 mod3') {
+    msg.reply('\n 姓名:**M1918**\n 等級::star: :star: :star: :star: :star2: \n 槍種::regional_indicator_m: :regional_indicator_g:\n 繪師:**水烏龜** \n\n **火力專注MG** :提升自身火力25% →28%（70% →75%）,持續4秒（6秒）。 開場CD8秒，技能間隔CD18秒 \n\n **戰地魔術** :換彈時間縮短至5.5秒（5秒），且換彈後的前3次攻擊傷害提升25%（40%）\n	https://img.moegirl.org/common/7/7c/M1918Mod.png   ');
   }
 });
 
