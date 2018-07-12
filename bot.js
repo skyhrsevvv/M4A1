@@ -5,9 +5,9 @@ const prefix = "AR15";
 client.on('ready',() => {
   console.log('Bot Launched...')
 
-  bot.user.setStatus("Online")
+  client.user.setStatus("Online")
 
-  bot.user.setGame('hello')
+  client.user.setGame('hello')
 
 });
 
