@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "AR15";
 
-bot.on('ready',() => {
+client.on('ready',() => {
   console.log('Bot Launched...')
 
   bot.user.setStatus("Online")
