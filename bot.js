@@ -13,7 +13,6 @@ client.on('ready',() => {
 
  console.log('Bot started.');
   client.on('ready', msg => {
-  console.log('Bot operational.');
   client.user.setStatus("Online")
   client.user.setGame('炸彈人');
 });
