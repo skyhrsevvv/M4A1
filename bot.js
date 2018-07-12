@@ -2,7 +2,14 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "AR15";
 
+bot.on('ready',() => {
+  console.log('Bot Launched...')
 
+  bot.user.setStatus("Online")
+
+  bot.user.setGame('hello')
+
+});
 
  console.log('Bot started.');
   client.on('ready', msg => {
